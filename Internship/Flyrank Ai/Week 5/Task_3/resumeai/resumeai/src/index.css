@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #020617;
+  --color-primary: #3b82f6;
+  --color-textmain: #ffffff;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-textmain);
+}
